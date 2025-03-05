@@ -10,6 +10,6 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {"pretty", "html:target/cucumber.html"},
         tags = "@opencart")
 
-public class Runner {
+public class OpencartRunnerTest {
 
 }
