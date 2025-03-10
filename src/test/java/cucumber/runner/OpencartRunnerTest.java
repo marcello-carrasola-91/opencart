@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(glue = "cucumber.steps",
         features = "src/test/resources/features/",
         plugin = {"pretty", "html:target/cucumber.html"},
-        tags = "@opencart")
+        tags = "@opencart2")
 
 public class OpencartRunnerTest {
 

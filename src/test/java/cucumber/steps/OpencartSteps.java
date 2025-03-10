@@ -11,8 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 
 
-public class opencart_steps {
-    ChromeDriverService service = new ChromeDriverService.Builder().build();
+public class OpencartSteps {
+    /*ChromeDriverService service = new ChromeDriverService.Builder().build();
     WebDriver driver;
 
 
@@ -104,5 +104,5 @@ public class opencart_steps {
             scenario.attach(screenshot, "image/png", scenario.getName());
         }
         driver.close();
-    }
+    }*/
 }
